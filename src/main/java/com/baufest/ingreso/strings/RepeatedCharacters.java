@@ -28,6 +28,6 @@ public class RepeatedCharacters {
             char elemento = arr.get(0);
             arr.removeIf(x -> x==elemento);
         }
-        return cantRepetidos.size() == 1 || cantRepetidos.stream().distinct().collect(Collectors.toList()).size() < 3;
+        return cantRepetidos.size() == 1 || cantRepetidos.stream().distinct().count() < 3;
     }
 }
