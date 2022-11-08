@@ -1,6 +1,3 @@
-# El challenge no es está terminado en sí, ya que este mismo, en el ejercicio 3 no cumple con todos los tests. Cabe aclarar que el ultimo ejercicio no lo realicé, lo transcribí de uno que realizó un compañero de la facultad en otro lenguaje. La lógica es exactamente la misma, lo pensé en primera instancia de la misma manera, sin embargo por falta de tiempo (por trabajo) no decidí realizarlo yo mismo. Podría haberlo hecho quizás de otra manera como por ejemplo transformar la matriz en forma de arbol y realizar un recorrido en "postorden" junto con un tipo de programación recursiva.
-
-
 # Examen de nivelación de Baufest
 ## Consideraciones generales
 - Para resolver los ejercicios en general alcanza con implementar un métodos. De todas maneras, está permitido agregar métodos, clases, interfaces o lo que consideres necesario
