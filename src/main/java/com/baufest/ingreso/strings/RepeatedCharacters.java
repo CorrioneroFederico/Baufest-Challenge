@@ -26,7 +26,7 @@ public class RepeatedCharacters {
         while(!arr.isEmpty()){
             cantRepetidos.add(Collections.frequency(arr, arr.get(0)));
             char elemento = arr.get(0);
-            arr = arr.stream().filter( x -> x!=elemento).collect(Collectors.toList());
+            arr.removeIf(x -> x==elemento);
         }
         return cantRepetidos.size() == 1 || cantRepetidos.stream().distinct().collect(Collectors.toList()).size() < 3;
     }
